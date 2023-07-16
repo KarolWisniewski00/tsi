@@ -18,6 +18,11 @@ class GoogleLoginController extends Controller
     public function handleProviderRedirect()
     {
         $user = Socialite::driver('google')->user();
+        $profileImage = $user->getAvatar();
+
+        // Następnie możesz zapisać URL zdjęcia profilowego do sesji lub bazy danych użytkownika.
+        // Przykład zapisu URL do sesji:
+        session(['profile_image' => $profileImage]);
         
         // Znajdź lub zarejestruj użytkownika na podstawie danych z Google
         // Przykładowo, można sprawdzić czy użytkownik istnieje w bazie danych i zalogować go
