@@ -16,6 +16,7 @@
     <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     
+    <script src="https://kit.fontawesome.com/e37acf9c2e.js" crossorigin="anonymous"></script>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
