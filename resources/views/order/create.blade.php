@@ -40,6 +40,12 @@
                 <i class="fa-solid fa-xmark mr-2"></i>Cancel
             </a>
             </form>
+            <!--
+                dodać paginacje
+                nowe i edit do modal
+                dodać do str gł
+                
+            -->
         </div>
     </div>
 </x-app-layout>
